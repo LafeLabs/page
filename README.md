@@ -1,2 +1,3 @@
-# page
-further simplification from map factory: just a scroll, using markdown with showdown and bootstrap
+# Page
+
+This is a self replicating web page: you replicate it yourself.  
