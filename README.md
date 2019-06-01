@@ -30,11 +30,14 @@ into the file and save it.  Then go to your web page address which should be [na
 
 To get your own domain, the steps are the same, and with the same company, just buy a domain from them.  The company which creates 000webhost is [Hostinger](https://www.hostinger.com/).  It's cheap, easy to use, easy to scale up, has servers all over the world, and is worker-owned.  For this network buy domains that accurately describe a place, concept, or thing, with as obscure but also short a domain as possible. There is no reason not to use "bad" domains like ".biz", ".xyz" etc, since our goal is to have things that are easy to write down and share, not things where the domain itself is a brand, and we're not looking to create pages that are connected to the main web.  
 
-Don't forget to link to the page your new page comes from!  Links in markdown are made with square brackets for the words of the link and parentheses for the address the link pionts at.  
+Don't forget to link to the page your new page comes from!  Links in markdown are made with square brackets for the words of the link and parentheses for the address the link points at.  
 
 ```
 [words](link address)
 ```
 
-Add links to tutorials, links to your favorite pages, links to the page you were looking at before you made this page, and links to all the pages people make based on this one.
+Add links to tutorials, links to your favorite pages, links to the page you were looking at before you made this page, and links to all the pages people make based on this one. 
+
+
+
 

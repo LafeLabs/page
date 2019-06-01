@@ -1,7 +1,8 @@
 {
     "html": [
         "README.md",
-        "index.html"
+        "index.html",
+        "pageeditor.html"
     ],
     "iconsymbols": [
         "editor.svg"
