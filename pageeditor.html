@@ -26,9 +26,8 @@
     </head>
 <body>
     
-<div class = "mainscrollarea" id = "maintextareabox">
+
     <textarea id = "maintextarea"></textarea>
-</div>
 
 
 <div id = "margin">
@@ -87,25 +86,11 @@
             body{
                 overflow:hidden;
             }
-            .mainscrollarea{
-                position:absolute;
-                left:0px;
-                right:30em;
-                top:0px;
-                bottom:0px;
-            }
-            #margin{
-                position:absolute;
-                right:0px;
-                bottom:0px;
-                top:0px;
-                width:27em;
-            }
             #maintextarea{
                 position:absolute;
                 left:0px;
                 top:0px;
-                width:100%;
+                width:85%;
                 height:100%;
                 padding-left:1em;
                 padding-top:1em;
@@ -114,33 +99,46 @@
                 font-family:courier;
                 font-size:1em;
             }
+            #margin{
+                position:absolute;
+                right:0px;
+                bottom:0px;
+                top:0px;
+                width:14%;
+            }
             #markdownhelp{
                 overflow:scroll;
                 padding-left:1em;
                 padding-right:1em;
-                width:25em;
+                width:80%;
             }
-            @media only screen and (orientation: portrait) {
-                .mainscrollarea{
+            @media only screen and (max-width: 1000px) {
+                #maintextarea{
                     position:absolute;
                     left:0px;
-                    top:70px;
-                    right:0px;
+                    top:100px;
+                    width:100%;
                     bottom:0px;
+                    padding-left:1em;
+                    padding-top:1em;
+                    background-color:black;
+                    color:#00ff00;
+                    font-family:courier;
+                    font-size:1em;
                 }
                 #margin{
                     position:absolute;
-                    right:0px;
-                    left:0px;
                     top:0px;
-                    width:100%;
-                    height:70px;
-                    overflow:scroll;
-               }
-               #markdownhelp{
+                    left:0px;
+                    right:0px;
+                    height:80px;
+                }
+                #markdownhelp{
                    display:none;
                }
+
             }
+
         </style>
     </body>
 </html>
