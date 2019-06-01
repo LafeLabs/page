@@ -44,7 +44,7 @@ if($oldscrollexists){
 }
 
 ?>
-<a href = "index.html">CLICK TO GO TO MAP</a>
+<a href = "index.html">CLICK TO GO TO PAGE</a>
 <style>
 a{
     font-size:3em;
