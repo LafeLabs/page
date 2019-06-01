@@ -20,7 +20,21 @@ mkdir.php?dir=[name of your new page, all one word]
 This should give you a link to the new page you just made, which has the replicator program in it.  Click through to your new page, then click on the replicator.php program to run it.  After it's run there should be a link to the main page, which will start out with a copy of this tutorial.  Edit this page to be whatever it should be, with a link back to this page for future people who copy the System.
 
 
+To create your own page on [000webhost](https://www.000webhost.com/), go to the link, get a free account, and create a new file in your home web directory called replicator.php, and copy/paste the code from here:
 
 
+[https://raw.githubusercontent.com/LafeLabs/page/master/php/replicator.txt](https://raw.githubusercontent.com/LafeLabs/page/master/php/replicator.txt)
 
+
+into the file and save it.  Then go to your web page address which should be [name of your page].000webhostapp.com, and click on the link to replicator.php.  Wait for all files to copy, and click on the link back to your new page when done.
+
+To get your own domain, the steps are the same, and with the same company, just buy a domain from them.  The company which creates 000webhost is [Hostinger](https://www.hostinger.com/).  It's cheap, easy to use, easy to scale up, has servers all over the world, and is worker-owned.  For this network buy domains that accurately describe a place, concept, or thing, with as obscure but also short a domain as possible. There is no reason not to use "bad" domains like ".biz", ".xyz" etc, since our goal is to have things that are easy to write down and share, not things where the domain itself is a brand, and we're not looking to create pages that are connected to the main web.  
+
+Don't forget to link to the page your new page comes from!  Links in markdown are made with square brackets for the words of the link and parentheses for the address the link pionts at.  
+
+```
+[words](link address)
+```
+
+Add links to tutorials, links to your favorite pages, links to the page you were looking at before you made this page, and links to all the pages people make based on this one.
 
