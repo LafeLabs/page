@@ -36,22 +36,31 @@
 </a>
 
             <!--<img class=  "button" style = "width:50px;" src = "iconsymbols/helpicon.svg"/>-->
-    <div id = "markdownhelp">
-    <h2>Markdown Reference:</h2>
-    <pre>
-        paragraph break: two newlines
-        link:    [link text](destination url)
-        image: ![alt text](image url)
-        # header 
-        ## smaller header 
-        - list element 
-        - another element 
-        1. enumerated list element 
-        2. another 
-        *italic* 
-        **bold** 
-    </pre>
 
+    <div id = "markdownhelp">
+        <h2>Markdown Reference:</h2>
+        <pre>
+            paragraph break: two newlines
+            link:    [link text](destination url)
+            image: ![alt text](image url)
+            # header 
+            ## smaller header 
+            - list element 
+            - another element 
+            1. enumerated list element 
+            2. another 
+            *italic* 
+            **bold** 
+        </pre>
+    </div>
+
+    <table id = "newpagetable">
+        <tr>
+            <td>NEWPAGE:</td>
+            <td><input id = "newpageinput"/></td>
+            <td><a id = "newpagelink"></a></td>
+        </tr>
+    </table>
 </div>
 
 
@@ -81,6 +90,13 @@
         httpc.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;charset=utf-8");
         httpc.send("data="+data+"&filename=README.md");//send text to filesaver.php
     }
+
+    document.getElementById("newpageinput").onchange = function() {
+        document.getElementById("newpagelink").href = "mkdir.php?dir=" + this.value;
+        document.getElementById("newpagelink").innerHTML = "mkdir.php?dir=" + this.value;
+    }
+
+
         </script>
         <style>
             body{
@@ -112,19 +128,24 @@
                 padding-right:1em;
                 width:80%;
             }
+            #newpagetable{
+                font-family:courier;
+                font-size:14px;
+            }
             @media only screen and (max-width: 1000px) {
                 #maintextarea{
                     position:absolute;
                     left:0px;
                     top:100px;
                     width:100%;
-                    bottom:0px;
+                    bottom:10px;
                     padding-left:1em;
                     padding-top:1em;
                     background-color:black;
                     color:#00ff00;
                     font-family:courier;
                     font-size:1em;
+                    overflow:scroll;
                 }
                 #margin{
                     position:absolute;

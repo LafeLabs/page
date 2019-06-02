@@ -38,6 +38,6 @@ Don't forget to link to the page your new page comes from!  Links in markdown ar
 
 Add links to tutorials, links to your favorite pages, links to the page you were looking at before you made this page, and links to all the pages people make based on this one. 
 
-
+[link to code editor](editor.php)
 
 
