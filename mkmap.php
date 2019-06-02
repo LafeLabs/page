@@ -7,7 +7,8 @@ mkdir($dirname);
 
 copy("https://raw.githubusercontent.com/LafeLabs/mapfactory5/master/php/replicator.txt",$dirname."/replicator.php");
 
-echo "<a href = \"$dirname\">".$dirname."</a>"
+echo "<a href = \"".$dirname."/replicator.php\">".$dirname."/replicator.php</a>";
+
 ?>
 <style>
     a{
