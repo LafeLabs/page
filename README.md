@@ -38,7 +38,13 @@ All "things" can have pages that correspond to them, building a real "internet o
 
 [link to code editor](editor.php)
 
+[link up a level in directory tree](../)
 
+[link to list of pages, pagelist.php](pagelist.php)
+
+to make a new map instead of new page, use
+
+mkmap.php?dir=[name of new map]
 
 
 
