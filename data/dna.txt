@@ -18,6 +18,8 @@
         "filesaver.txt",
         "mkdir.txt",
         "mkmap.txt",
+        "mkpaper.txt",
+        "mksymbol.txt",
         "pagelist.txt",
         "replicator.txt",
         "text2php.txt"
