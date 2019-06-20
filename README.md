@@ -4,7 +4,7 @@ This is a self replicating web page: you replicate it yourself.
 
 To edit this page, hit the pencil icon.  Then you can edit this text, delete it etc.  Think of this like a chalk board or dry erase board: anyone can edit or delete at any time.  But unlike a real chalk board, this whole thing self-replicates.  If you want a second chalk board, you have to go back to the chalk board store, buy another one, and take it home.  If you want another one of these, you can make a new directory and copy the files at zero cost in a few seconds.  This is the true power of information on the modern Internet: it can replicate in such a way that in theory one copy can become billions in a matter of hours.  
 
-To make your own sub-page to this one, enter the name of your new page in "NEWPAGE" and hit enter or return or go.  This should will create a link to the "mkdir" program which will give you a link to the new page you just made, which has the replicator program in it.  Click through to your new page, then click on the replicator.php program to run it.  After it's run there should be a link to the main page, which will start out with a copy of this tutorial.  Edit this page to be whatever it should be, with a link back to this page for future people who copy the System.
+To make your own sub-page to this one, enter the name of your new page in "NEWPAGE" and hit enter or return or go.  This will create a link to the "mkdir" program which will give you a link to the new page you just made, which has the replicator program in it.  Click through to your new page, then click on the replicator.php program to run it.  After it's run there should be a link to the main page, which will start out with a copy of this tutorial.  Edit this page to be whatever it should be, with a link back to this page for future people who copy the System.
 
 
 To create your own free web page on [000webhost](https://www.000webhost.com/), go to the link, get a free account, and create a new file in your home web directory called replicator.php, and copy/paste the code from here:
@@ -34,17 +34,39 @@ To share pages in the physical world, get physical media like index cards, blank
 
 Always use the public library as a hub for sharing pages with other people.
 
-All "things" can have pages that correspond to them, building a real "internet of things" in a philosophical sense, rather than in the literal sense of just putting computers in everything.
+All "things" can have pages that correspond to them, building a real "internet of things" in a philosophical sense, rather than in the literal sense of just putting computers in everything.  Some "things" which could have pages might be:
+
+- a little free library 
+- a public restroom
+- a bus stop
+- a bench in a train station
+- a specific section of a library based on call number
+- a specific computer in the computer lab of a library
+- an action: how to do a thing, build a thing, etc.
+- an obscure idea that only is of interest to a few people
+- the confluence of two rivers/streams/creeks
+- a beach or boat launch point into a body of water
+- the intersection between two streets
+- a curb, stairs, or ramp
+- a parking block, bollard or traffic barrier
+- a household item which has specific instructions for use, on a local network
+- a coffee shop, as a community bulletin board
+- a business in a shopping center mapped with a Map Factory from this system
+- any shared resource which people need to discuss the use of
+- how to make a piece of technology, which then with the help of the self replicating web document becomes self replicating itself
+- a top level directory of lower level pages, maps, symbols and papers in this system
+- a blog-like page but without permanence
+
+
+
+The code editor linked below allows all components of all programs which make up this page to be edited, including the utility functions which allow for saving and loading of files, etc. 
 
 [link to code editor](editor.php)
 
 [link up a level in directory tree](../)
 
-[link to list of pages, pagelist.php](pagelist.php)
+[link to list of pages, pagelist.php, with inputs to create new instances of maps, symbol factories, and technical papers as well as more pages](pagelist.php)
 
-to make a new map instead of new page, use
-
-mkmap.php?dir=[name of new map]
 
 
 
