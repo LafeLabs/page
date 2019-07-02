@@ -5,7 +5,8 @@
         "pageeditor.html"
     ],
     "iconsymbols": [
-        "editor.svg"
+        "editor.svg",
+        "tree.svg"
     ],
     "data": [
         "dna.txt"
