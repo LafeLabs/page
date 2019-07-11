@@ -5,6 +5,7 @@
         "pageeditor.html"
     ],
     "iconsymbols": [
+        "deletebutton.svg",
         "editor.svg",
         "tree.svg"
     ],
@@ -12,6 +13,7 @@
         "dna.txt"
     ],
     "php": [
+        "deletebranch.txt",
         "dir.txt",
         "dnagenerator.txt",
         "editor.txt",
